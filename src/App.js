@@ -13,7 +13,7 @@ function App() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Com Javascript + Html + Css você pode criar este jogo"}
+        videoDescription={"Javascript + Html + Css você pode criar este jogo"}
       />
 
       <Carousel
