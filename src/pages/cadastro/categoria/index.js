@@ -11,7 +11,7 @@ function CadastroCategoria() {
     descircao: '',
     cor: '#000'
   }
-  const [nomeDaCategoria, setNomeCategoria] = useState([]);
+ // const [nomeDaCategoria, setNomeCategoria] = useState([]);
   const [values, setValues] = useState(valoresIniciais);
 
   function setValue(chave, valor) {

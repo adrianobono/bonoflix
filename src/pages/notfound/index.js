@@ -1,15 +1,18 @@
 import React from 'react';
+import PageDefault from '../../components/PageDefault';
 
 import { VideoContainer, ResponsiveIframe } from './styles';
 
 function NotFound({ youtubeID }) {
   return (
-    <VideoContainer>
-      <ResponsiveIframe
-        title="Titulo do Iframe"
-        src={`https://www.icanvas.com.br/flappy`}
-      />
-    </VideoContainer>
+
+     <PageDefault>
+        <ResponsiveIframe
+          title="Titulo do Iframe"
+          src={`https://www.icanvas.com.br/flappy`}
+          />
+      </PageDefault>
+ 
   );
 }
 
