@@ -5,13 +5,13 @@ import { ResponsiveIframe } from './styles';
 
 function NotFound() {
   return (
-<div></div>
-    //  <PageDefault>
-    //     <ResponsiveIframe
-    //       title="Titulo do Iframe"
-    //       src={`https://www.icanvas.com.br/flappy`}
-    //       />
-    //   </PageDefault>
+
+     <PageDefault>
+        <ResponsiveIframe
+          title="Titulo do Iframe"
+          src={`https://www.icanvas.com.br/flappy`}
+          />
+      </PageDefault>
  
   );
 }
