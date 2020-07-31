@@ -6,19 +6,10 @@ import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import CadastroVideo from './pages/cadastro/video'
 import CadastroCategoria from './pages/cadastro/categoria';
 import NotFound from './pages/notfound'
- 
-// function CadastroVideo() {
-//   return (
-//     <div>
-//       Página de Cadastro de Vídeo.
-//     </div>
-//   )
-// }
+
 
 ReactDOM.render(
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>,
+  
   <BrowserRouter>
   <Switch>
     <Route path="/" component={App} exact />

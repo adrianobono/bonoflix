@@ -1,9 +1,9 @@
 import React from 'react';
 import PageDefault from '../../components/PageDefault';
 
-import { VideoContainer, ResponsiveIframe } from './styles';
+import { ResponsiveIframe } from './styles';
 
-function NotFound({ youtubeID }) {
+function NotFound() {
   return (
 
      <PageDefault>
